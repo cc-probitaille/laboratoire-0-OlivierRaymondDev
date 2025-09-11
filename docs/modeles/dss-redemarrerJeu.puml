@@ -1,1 +1,11 @@
-// Vous devez compléter ce fichier
+@startuml DSS-Redemarrer
+skinparam style strictuml
+skinparam defaultfontname Verdana
+skinparam sequence {
+    MessageAlign center
+}
+title DSS pour le scénario Redémarrer
+actor ":Joueur"
+participant ":Système"
+":Joueur"->":Système" : redémarrerJeu()
+@enduml
