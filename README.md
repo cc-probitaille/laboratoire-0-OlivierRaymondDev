@@ -536,7 +536,7 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 
 ### 8. Générer le rapport en format PDF
 
-- [ ] Assurez-vous de générer une version PDF de votre fichier `docs/Squelette.md` nommé `docs/lab0.pdf`
+- [x] Assurez-vous de générer une version PDF de votre fichier `docs/Squelette.md` nommé `docs/lab0.pdf`
   > Un menu contextuel devrait vous permettre de réaliser cette tâche dans Visual Studio Code si vous avez installé les bonnes extensions.
   > Il se peut que vous ayez à installer d'autres modules (un _exporter_ pour Chromium). 
   > Il se peut que le fichier soit créé dans un répertoire `out/docs/` aussi avec le nom `Squelette.pdf`.
