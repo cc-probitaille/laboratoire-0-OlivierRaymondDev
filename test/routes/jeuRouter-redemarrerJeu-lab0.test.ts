@@ -23,5 +23,10 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
     const joueursArray = JSON.parse(joueursJSON);
     expect(joueursArray.length).toBe(0);
   });
+
+  it("devrait être impossible de jouer après redemarrerJeu", async () => {
+    const response = await request.get('/api/v1/jeu/jouer/' + "Joueur1");
+    expect(response.status).toBe(404);
+  });
 });
 

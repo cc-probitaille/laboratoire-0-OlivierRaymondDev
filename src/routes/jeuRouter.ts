@@ -109,7 +109,7 @@ export class JeuRouter {
   /**
    * redemarrerJeu
    */
-  public redemarrerJeu(req: Request, res: Response, next: NextFunction){
+  public redemarrerJeu(req: Request, res: Response, next: NextFunction) {
     try{
       this._controleurJeu.redemarrerJeu();
           req.flash('info', `Redémarrage du jeu`);

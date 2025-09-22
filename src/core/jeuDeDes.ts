@@ -71,7 +71,7 @@ export class JeuDeDes {
         return JSON.stringify(resultat);
     }
 
-    public redemarrerJeu(){
+    public redemarrerJeu() {
         this._joueurs.clear();
     }
 
